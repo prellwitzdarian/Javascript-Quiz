@@ -1,0 +1,81 @@
+#quiz-container h1 {
+  color: black;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#quiz-container,
+#score-container {
+  background-color: rgb(244, 162, 213);
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+.hidden h2 {
+  color: black;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#question-container {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+#options-container button {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#next-button {
+  background-color: rgb(243, 243, 171);
+  border-color: rgb(241, 241, 171);
+  display: block;
+  margin: 20px auto 0;
+  padding: 7px 10px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#score {
+  text-align: center;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#restart-button {
+  background-color: rgb(227, 97, 97);
+  border-color: rgb(243, 158, 158);
+  display: block;
+  margin: 20px auto 0;
+  padding: 7px 10px;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hidden {
+  display: none;
+}
